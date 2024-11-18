@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #dados {
+    text-align: left;
+    background: #f2f2f2;
+    padding: 15px;
+    border-radius: 8px;
+    line-height: 1.6;
+  }
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 13px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  
+
+
+@media (max-width: 375px) {
+    body {
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; 
+    }
+  
+    main {
+      padding: 15px;
+      width: 100%; 
+      box-sizing: border-box; 
+    }
+  
+    form {
+      width: 100%; 
+    }
+  
+    form input, form textarea {
+      font-size: 14px;
+      padding: 8px;
+      width: 100%; 
+      box-sizing: border-box; 
+    }
+  
+    form button {
+      font-size: 14px;
+      padding: 10px;
+      width: 100%; 
+    }
+  
+    h1, h2 {
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    label {
+      font-size: 14px;
+      display: block; 
+      margin-top: 10px;
+    }
+  
+    textarea {
+      height: 80px;
+    }
+  }
+  

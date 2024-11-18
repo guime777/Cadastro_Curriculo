@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Currículo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cadastro de Currículo</h1>
+  </header>
+  <main>
+    <form id="curriculoForm">
+      <h2>Informações Pessoais</h2>
+      <label for="nome">Nome Completo:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required>
+
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco" required>
+
+      <h2>Outras Informações</h2>
+      <label for="profissao">Profissão:</label>
+      <input type="text" id="profissao" name="profissao" required>
+
+      <label for="objetivo">Objetivo Profissional:</label>
+      <textarea id="objetivo" name="objetivo" rows="3" required></textarea>
+
+      <label for="experiencias">Experiências:</label>
+      <textarea id="experiencias" name="experiencias" rows="5" required></textarea>
+
+      <label for="cursos">Cursos:</label>
+      <textarea id="cursos" name="cursos" rows="5"></textarea>
+
+      <button type="submit">Cadastrar</button>
+    </form>
+
+    <section id="resultado" style="display: none;">
+      <h2>Currículo Cadastrado</h2>
+      <div id="dados"></div>
+      <button onclick="window.location.reload()">Cadastrar Novamente</button>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Cadastro de Currículo. Todos os direitos reservados.</p>
+  </footer>
+  
+  <script src="./assets/script.js"></script>
+</body>
+</html>
